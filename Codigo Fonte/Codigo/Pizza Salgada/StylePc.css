@@ -1,0 +1,281 @@
+body {
+    min-height: 100%;
+    background: #E8EEF2;
+}
+
+/* Menus */
+a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-list a:hover {
+  color: yellow;
+
+}
+
+#Carrinho{
+    font-size: 30;
+}
+
+.logo {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 17%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  height: 8vh;
+}
+
+main {
+  background: url("bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #000;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+/* Final */
+
+
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+
+}
+
+header {
+    background-color: #A4243B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 73%;
+    height: 300px;
+}
+
+.promo-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.promo-box h3 {
+    display: flex;
+
+}
+
+.promo-box img {
+    width: 110px;
+    margin: 15px 15px;
+    border-radius: 15px;
+}
+
+
+/*Options Buttons*/
+.btn-option{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 2px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-option img{
+    border-radius: 20%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.btn-option img:hover{
+    filter: none
+
+}
+
+.btn-option h4{
+    margin-bottom: -10px;
+}
+
+
+
+
+/*Categorys*/
+
+#referenci-category{
+    position: relative;
+    height: 600px;
+}
+
+.category{
+    padding: 0 10%;
+    position: absolute;
+    margin:40px auto;
+}
+
+
+/*Mudanças de categorias via js*/
+#doce, #massas, #bebidas, #fogazza{
+    display: none;
+}
+
+
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+section h2 {
+    text-align: center;
+}
+
+hr {
+    display: flex;
+    width: 72%;
+    border: 2px solid #c4c4c4;
+}
+
+.Primeira-linha hr {
+    margin-top: 2%;
+
+}
+
+.promo-section hr {
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.principal-cat-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prinipal-box {
+    width: 300px;
+    border: solid #000 3px;
+    margin: 15px 35px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.prinipal-box img {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-box {
+    padding: 5px;
+}
+
+.content-box p,
+h3 {
+    margin-left: 5px;
+}
+
+
+
+.content-box button {
+    padding: 10px 25px;
+    border: solid #000 2px;
+    border-radius: 25px;
+}
+
+footer {
+    border: #000 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #272727;
+    color: aliceblue;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin: 10px 25px;
+    padding: 15px 50px;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+footer img {
+    width: 25px;
+    margin: 5px 15px;
+}
+
+#mapa {
+    text-align: center;
+}
+
+#mapa iframe {
+    width: 300px;
+    height: 150px;
+}
+
+#Atendimento h3 {
+    text-align: start;
+}
+
+#Atendimento ul {
+    list-style: none;
+    text-align: center;
+}
+
+#Atendimento li {
+    margin: 5px 2px;
+}
+
+#atendimento li a {
+    text-decoration: none;
+}
+
+.social-medias a {
+    font-size: 25px;
+    margin: 10px 10px;
+}
