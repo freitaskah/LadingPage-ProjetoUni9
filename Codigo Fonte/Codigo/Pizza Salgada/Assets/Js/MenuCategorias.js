@@ -15,31 +15,49 @@ function liga_display(elemento,estado){
 }
 
 function MudaMenu(x){
-    if(x=="salgada"){
+    if(x=="Beatriz"){
         liga_display(salgada,0);
         liga_display(doce,1);
         liga_display(bebidas,1);
         liga_display(massas,1);
         liga_display(fogazza,1);
-    }else if(x=="doce"){
+    }else if(x=="Gabriel Eduardo"){
         liga_display(salgada,1);
         liga_display(doce,0);
         liga_display(bebidas,1);
         liga_display(massas,1);
         liga_display(fogazza,1);
-    }else if(x=="bebidas"){
+    }else if(x=="Jessica"){
         liga_display(salgada,1);
         liga_display(doce,1);
         liga_display(bebidas,0);
         liga_display(massas,1);
         liga_display(fogazza,1);
-    }else if(x=="massas"){
+    }else if(x=="Julia"){
         liga_display(salgada,1);
         liga_display(doce,1);
         liga_display(bebidas,1);
         liga_display(massas,0);
         liga_display(fogazza,1);
-    }else if(x=="fogazza"){
+    }else if(x=="Kaiky"){
+        liga_display(salgada,1);
+        liga_display(doce,1);
+        liga_display(bebidas,1);
+        liga_display(massas,1);
+        liga_display(fogazza,0);
+    }else if(x=="Gabriel Viana"){
+        liga_display(salgada,1);
+        liga_display(doce,1);
+        liga_display(bebidas,1);
+        liga_display(massas,1);
+        liga_display(fogazza,0);
+    }else if(x=="Maira"){
+        liga_display(salgada,1);
+        liga_display(doce,1);
+        liga_display(bebidas,1);
+        liga_display(massas,1);
+        liga_display(fogazza,0);
+    }else if(x=="Leticia"){
         liga_display(salgada,1);
         liga_display(doce,1);
         liga_display(bebidas,1);
