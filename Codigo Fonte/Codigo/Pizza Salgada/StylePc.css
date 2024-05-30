@@ -190,52 +190,36 @@ hr {
     margin-bottom: 2%;
 }
 
-.principal-cat-box {
+/* .principal-cat-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
-.prinipal-box {
+/* .prinipal-box {
     width: 300px;
-    border: solid #000 3px;
-    margin: 15px 35px;
+    /* border: solid #000 3px; */
+    /* margin: 15px 35px;
     display: flex;
     border-radius: 25px;
+    text-align: center;
+    align-items: center;
 }
 
 .prinipal-box img {
     display: flex;
     width: 50%;
     height: 100%;
-}
+} */ */
 
-
-
-
-
-
-
-
-
-
-
-.content-box {
+/* .content-box {
     padding: 5px;
-}
+} */
 
 .content-box p,
 h3 {
     margin-left: 5px;
-}
-
-
-
-.content-box button {
-    padding: 10px 25px;
-    border: solid #000 2px;
-    border-radius: 25px;
 }
 
 footer {
