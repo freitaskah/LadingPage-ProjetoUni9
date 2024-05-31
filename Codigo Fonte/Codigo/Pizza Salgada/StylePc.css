@@ -16,8 +16,8 @@ a {
 
 }
 
-#Carrinho{
-    font-size: 30;
+.img-coruja{
+    height: 50px;
 }
 
 nav {
@@ -67,7 +67,7 @@ main {
 }
 
 header {
-    background-color: #8057ED;
+    background-color: #4F1A5A;
     border-radius: 20px;
     display: flex;
     justify-content: left;
@@ -76,31 +76,54 @@ header {
     height: 300px;
 }
 
-.Box-explanation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header_geral{
     text-align: center;
-    flex-direction: column;
-
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
-.Box-explanation h1{
-    margin-left: 480px;
+.header_texto1{
+    color: #E2CA55;
 }
 
-.Box-explanation h2{
-    margin-left: 800px;
-    margin-right: 300px;
+.header_texto2{
+    background-color: #E2CA55;
+    color: #2C083B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15%;
 }
+
+.Box-explanation-geral {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.Box-explanation {
+    flex: 1;
+    margin-right: 5%;
+    color: #2C083B;
+}
+
+.Box-explanation2 img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 280px;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
 
 .promo-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 
@@ -149,29 +172,29 @@ header {
 #referenci-category{
     position: relative;
     height: 600px;
+
 }
 
 .category{
     padding: 0 10%;
-    position: absolute;
-    margin:40px auto;
+    text-align: center;
 }
 
 
 /*Mudanças de categorias via js*/
-#doce, #massas, #bebidas, #fogazza{
-    display: none;
+
+#mensagem-inicial{
+    text-align: center;
+    margin-top: 5%;
 }
 
-
+#Beatriz, #Gabriel_Eduardo, #Jessica, #Julia, #Kaiky, #Gabriel_Viana, #Maira, #Leticia{
+    display: none;
+}
 
 figcaption {
     display: flex;
     justify-content: center;
-}
-
-section h2 {
-    text-align: center;
 }
 
 hr {
@@ -190,37 +213,13 @@ hr {
     margin-bottom: 2%;
 }
 
-/* .principal-cat-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
-/* .prinipal-box {
-    width: 300px;
-    /* border: solid #000 3px; */
-    /* margin: 15px 35px;
-    display: flex;
-    border-radius: 25px;
-    text-align: center;
-    align-items: center;
+.Primeira_Imagem{
+    height: 375px;
+    margin-top: 3%;
+    border-radius: 10%;
 }
 
-.prinipal-box img {
-    display: flex;
-    width: 50%;
-    height: 100%;
-} */ */
-
-/* .content-box {
-    padding: 5px;
-} */
-
-.content-box p,
-h3 {
-    margin-left: 5px;
-}
+/* Barra final */
 
 footer {
     border: #000 solid 2px;

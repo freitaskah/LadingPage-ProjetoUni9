@@ -1,21 +1,25 @@
-let salgada = document.querySelector(".salgada")
-let doce = document.getAnimations("doce");
-let bebidas = document.getAnimations("bebidas");
-let massas = document.getAnimations("massas");
-let fogazza = document.getAnimations("fogazza");
+let Beatriz = document.querySelector("Beatriz")
+let Gabriel_Eduardo = document.getAnimations("Gabriel_Eduardo");
+let Jessica = document.getAnimations("Jessica");
+let Julia = document.getAnimations("Julia");
+let Kaiky = document.getAnimations("Kaiky");
+let Gabriel_Viana = document.getAnimations("Gabriel_Viana");
+let Maira = document.getAnimations("Maira");
+let Leticia = document.getAnimations("Leticia");
+
 
 function Mudar(option){
-    if(option=="salgada"){
-        console.log(salgada)
-        salgada.style.display = "block";
-        doce.style.display = "none";
+    if(option=="Beatriz"){
+        console.log(Beatriz)
+        Beatriz.style.display = "block";
+        Gabriel_Eduardo.style.display = "none";
         /*
         bebidas.style.display = "none"
         massas.style.display = "none"
         fogazza.style.display = "none"
         */
 
-    }else if(option=="doce"){
+    }else if(option=="Gabriel_Eduardo"){
         salgada.style.display = "none"
         doce.style.display = "block";
     }
