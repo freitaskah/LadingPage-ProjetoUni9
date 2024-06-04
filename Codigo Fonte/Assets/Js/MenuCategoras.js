@@ -13,11 +13,6 @@ function Mudar(option){
         console.log(Beatriz)
         Beatriz.style.display = "block";
         Gabriel_Eduardo.style.display = "none";
-        /*
-        bebidas.style.display = "none"
-        massas.style.display = "none"
-        fogazza.style.display = "none"
-        */
 
     }else if(option=="Gabriel_Eduardo"){
         salgada.style.display = "none"

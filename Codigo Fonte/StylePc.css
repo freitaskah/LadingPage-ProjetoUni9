@@ -57,7 +57,7 @@ main {
   transition: 0.3s;
 }
 
-/* Final */
+/* MEIO */
 
 
 .cabeçalho {
@@ -164,9 +164,6 @@ header {
     margin-bottom: -10px;
 }
 
-
-
-
 /*Categorys*/
 
 #referenci-category{
@@ -219,7 +216,7 @@ hr {
     border-radius: 10%;
 }
 
-/* Barra final */
+/* Footer */
 
 footer {
     border: #000 solid 2px;

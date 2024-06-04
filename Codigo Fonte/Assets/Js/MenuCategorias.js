@@ -8,7 +8,6 @@ var Maira = document.getElementById("Maira");
 var Leticia = document.getElementById("Leticia");
 var mensagemInicial = document.getElementById("mensagem-inicial");
 
-// Função para esconder todos os elementos
 function esconderTodos() {
     Beatriz.style.display = "none";
     Gabriel_Eduardo.style.display = "none";
@@ -20,7 +19,6 @@ function esconderTodos() {
     Leticia.style.display = "none";
 }
 
-// Esconder todos os elementos na inicialização
 esconderTodos();
 
 function liga_display(elemento, estado){
@@ -34,8 +32,8 @@ function liga_display(elemento, estado){
 }
 
 function MudaMenu(x){
-    esconderTodos(); // Esconder todos os elementos antes de exibir o selecionado
-    mensagemInicial.style.display = "none"; // Esconder a mensagem inicial
+    esconderTodos(); 
+    mensagemInicial.style.display = "none"; 
     
     if(x == "Beatriz"){
         liga_display(Beatriz, 0);
